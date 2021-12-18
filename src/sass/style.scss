@@ -1,6 +1,8 @@
 @import 'base/variables';
 * {
     font-family: "MuseoModerno", sans-serif;
+    box-sizing: border-box;
+
 }
 a {
     text-decoration: none;
@@ -8,7 +10,18 @@ a {
 .container {
     max-width: 950px;
     margin: 0 auto;
+    position: relative;
 }
 @import 'blocks/promo';
 @import 'blocks/header';
 @import 'blocks/buttons';
+@import "blocks/advantages";
+@import 'blocks/media';
+@import 'blocks/consultation';
+@import 'blocks/title';
+@import 'blocks/forms';
+@import 'blocks/carousel';
+@import 'blocks/catalog';
+@import 'blocks/feed';
+@import 'blocks/footer';
+@import 'blocks/modal';

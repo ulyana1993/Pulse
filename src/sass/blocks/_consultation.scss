@@ -1,0 +1,20 @@
+.consultation {
+    min-height: 680px;
+    padding: 100px 0 92px;
+    background: url(../img/images/consultation_bg.jpg) center (center/cover) no-repeat;
+    &__descr {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+    .error {
+        border: 1px solid red; //Изменяем формат окон при неправильном введени данных, неправильные условия прописаны в скрипте. Класс взяли из консоли. Подставляется автоматически при создании соответсвующего скрипта.
+                
+    }
+    label.error {
+        color: white;
+        border: none; //Убираем красну. рамку у сообщений
+        margin-bottom: 15px;
+    }
+}
